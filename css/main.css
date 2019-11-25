@@ -98,6 +98,70 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* ---------------- Base header - footer styles ----------*/
+   header, footer {
+
+   }
+
+   /* ------------------ header styles ------------------*/
+
+   header {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+
+ /*----------- home page styles ------------*/
+
+ .main-title {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+ }
+
+ .features {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+ }
+
+ .benefits {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+ }
+
+
+
+   /*------- footer styles ---------*/
+
+   .services {
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       flex-flow: row wrap;
+       width: 100%;
+   }
+
+   .company, .support {
+       display: flex;
+       justify-content: center;
+       align-items: flex-start;
+       flex-flow: column wrap;
+       width: 100%;
+   }
+
+   .copyright {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -263,4 +327,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
