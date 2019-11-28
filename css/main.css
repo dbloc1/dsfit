@@ -103,6 +103,8 @@ textarea {
 
    }
 
+
+
    /* ------------------ header styles ------------------*/
 
    header {
@@ -110,31 +112,64 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     width: 100%;
    }
+
 
 
  /*----------- home page styles ------------*/
 
- .main-title {
+ .main-title, .features, .benefits {
    display: flex;
    justify-content: center;
    align-items: center;
    flex-flow: row wrap;
+   width: 90%;
+   margin: auto;
  }
 
- .features {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-flow: row wrap;
- }
 
- .benefits {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-flow: row wrap;
- }
+
+/*--------------- about page styles ---------------*/
+
+.about-top, .about-paragraph, .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+/*--------------- services page styles ---------------*/
+
+.services-top, .two-paths-headline, .ideal-in-home, .ideal-online, .expect-in-home, .expect-online, .hybrid-approach {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: auto;
+}
+
+
+
+/*--------------- contact page styles ---------------*/
+
+.contact-top, .contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: auto;
+}
+
+.contact-form {
+  text-align: center;
+}
 
 
 
@@ -145,7 +180,8 @@ textarea {
        justify-content: flex-start;
        align-items: center;
        flex-flow: row wrap;
-       width: 100%;
+       width: 90%;
+       margin: auto;
    }
 
    .company, .support {
@@ -153,14 +189,18 @@ textarea {
        justify-content: center;
        align-items: flex-start;
        flex-flow: column wrap;
-       width: 100%;
+       width: 90%;
+       margin: auto;
    }
 
    .copyright {
      display: flex;
      justify-content: center;
      align-items: center;
+     width: 100%;
    }
+
+
 
 /* ==========================================================================
    Helper classes
